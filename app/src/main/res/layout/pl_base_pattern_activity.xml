@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F8F8">
+
+        <com.beiing.gestruelock.gestruelock.LockIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/pl_message_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/pl_fl"
+            android:layout_below="@+id/indicator"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="17sp" />
+
+        <!-- This FrameLayout is for proper divider drawing. -->
+        <FrameLayout
+            android:id="@+id/pl_fl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <com.beiing.gestruelock.gestruelock.PatternView
+                android:id="@+id/pl_pattern"
+                style="@style/PatternView.Holo.Light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/pl_button_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="?android:attr/dividerVertical"
+            android:dividerPadding="12dp"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/pl_left_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/pl_right_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/changepwd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="55dp"
+            android:text="@string/pl_change_pwd"
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/resetpwd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="55dp"
+            android:text="@string/forget_gesture_pwd"
+            android:textColor="#666666"
+            android:textSize="15sp"
+
+            />
+    </RelativeLayout>
+</RelativeLayout>

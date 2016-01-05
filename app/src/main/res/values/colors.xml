@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 手势密码 -->
+    <color name="pattern_regularColor">#666666</color>
+    <color name="pattern_successColor">#00AAFF</color>
+    <color name="pattern_errorColor">#FF4343</color>
+
+    <!-- 手势密码 -->
+    <color name="chart_blue_color">#6ea1b6</color>
+    <color name="chart_red_color">#f98156</color>
+    <color name="chart_horiz_line">#DDDDDD</color>
+    <color name="chart_left_text">#305567</color>
+    <color name="chart_left_line">#333333</color>
+    <color name="color_F18200">#F18200</color>
+    <color name="color_eee">#eeeeee</color>
+    <color name="color_333333">#333333</color>
+    <color name="radiobg_normal_text">#666666</color>
+
+    <color name="whites">#fff</color>
+    
+</resources>

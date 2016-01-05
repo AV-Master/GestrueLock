@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">九宫格密码</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <!-- lockpattern -->
+    <string name="pl_cancel">取消</string>
+    <string name="pl_confirm">确认</string>
+    <string name="pl_confirm_pattern">再次绘制以确认</string>
+    <string name="pl_continue">继续</string>
+    <string name="pl_draw_pattern">请绘制手势密码</string>
+    <string name="pl_draw_pattern_to_unlock">请绘制手势密码</string>
+    <string name="pl_forgot_pattern">忘记图案</string>
+    <string name="pl_pattern_confirmed">您的新解锁图案</string>
+    <string name="pl_pattern_recorded">已记录图案</string>
+    <string name="pl_pattern_too_short">至少连接 %d 个点，请重画</string>
+    <string name="pl_recording_pattern">完成后松开手指</string>
+    <string name="pl_redraw">重画</string>
+    <string name="pl_wrong_pattern">密码错误</string>
+    <string name="forget_gesture_pwd">忘记手势密码</string>
+
+    <string name="pl_access_pattern_start">开始绘制图案</string>
+    <string name="pl_access_pattern_cleared">已清除图案</string>
+    <string name="pl_access_pattern_cell_added">已添加单元格</string>
+    <string name="pl_access_pattern_detected">已完成绘制图案</string>
+    <string name="pl_inputgesture">绘制解锁密码</string>
+    <string name="pl_change_pwd">修改手势密码</string>
+    <string name="pl_change_old">请绘制原手势密码</string>
+    <string name="pl_change_new">请绘制新手势密码</string>
+    <string name="pl_change_new2">请再次绘制以确认</string>
+    <string name="pl_gesture_head_set">设置手势密码</string>
+    <string name="pl_gesture_set">请设置手势密码</string>
+    <string name="pl_change_head_verify">验证手势密码</string>
+    <string name="pl_4least">至少选择四个点，请重新输入</string>
+    <string name="pl_different">两次绘制不一致，请重新绘制</string>
+    <string name="pl_wrong_many">您输错次数过多，请10分钟后再试</string>
+    <string name="pl_my_wallet">我的钱包</string>
+    <string name="pl_detail">明细</string>
+    <string name="pl_inandout_detail">收支明细</string>
+
+</resources>
